@@ -1,0 +1,100 @@
+Q1 Create a basic Express server that listens on port 3000 and responds with "Hello Express".
+
+Q2 Add multiple routes (/, /about, /contact) with different responses.
+
+Q3 Create a route that returns JSON data (/user → { name: "John", age: 25 }).
+
+Q4 Add query parameters support (/search?q=books) and log them.
+
+Q5 Use route parameters (/user/:id) and print the user ID.
+
+Q6 Create a POST route that accepts JSON data and returns it in the response.
+
+Q7 Add middleware to log all incoming requests (method and URL).
+
+Q8 Use express.static() to serve static files from a /public directory.
+
+Q9 Create a route that responds with the current date and time.
+
+Q10 Add a middleware that validates if name field exists in POST body, else return 400.
+
+Q11 Add error handling middleware and trigger it using a faulty route.
+
+Q12 Handle 404 errors with a custom message for undefined routes.
+
+Q13 Use res.download() to allow the download of a file from your server.
+
+Q14 Add a route to redirect /home to /.
+
+Q15 Create a route that sends an HTML string as a response instead of JSON.
+
+Q16 Create a basic in-memory array of users and implement all CRUD operations (GET, POST, PUT, DELETE).
+
+Q17 Create a middleware that logs time and IP address of each request.
+
+Q18 Create a middleware that restricts access to certain routes using an API key in headers.
+
+Q19 Accept form data (URL-encoded) using express.urlencoded() middleware.
+
+Q20 Use Router() to create a modular route handler (e.g., separate routes for /users and /products).
+
+Q21 Create a middleware chain with three functions before sending a response.
+
+Q22 Create a route that returns filtered data based on query parameters.
+
+Q23 Add a middleware to count how many requests have been made per route.
+
+Q24 Implement pagination logic using query parameters (page, limit).
+
+Q25 Write a route that returns sorted data based on a query param (sort=asc|desc).
+
+Q26 Return different status codes based on request validations (200, 400, 404, 500).
+
+Q27 Build a route that accepts file upload using multer (e.g., upload a profile picture).
+
+Q28 Create a route that parses and returns headers sent by the client.
+
+Q29 Create a route that returns the request’s User-Agent and IP address.
+
+Q30 Implement a route to accept a list of items (array in body) and return a summary.
+
+Q31 Add a middleware to sanitize inputs before using them in the server.
+
+Q32 Implement rate-limiting middleware manually using in-memory storage.
+ 
+Q33 Create a server restart-proof counter using file-based persistence.
+ 
+Q34 Create an API endpoint that returns the response time for each request.
+ 
+Q35 Add a global middleware that measures processing time of every request.
+ 
+Q36 Add a route that responds after a deliberate delay (simulate latency).
+ 
+Q37 Implement a global error handler that categorizes errors by type or origin.
+ 
+Q38 Write a middleware that logs slow requests (>500ms) separately.
+ 
+Q39 Add support for CORS configuration with specific origin rules.
+ 
+Q40 Create an API route that accepts multiple file uploads using multer.array().
+ 
+Q41 Implement a basic JWT-based authentication system, only with dummy tokens.
+ 
+Q42 Add a middleware that blocks requests from certain IP addresses.
+ 
+Q43 Create a middleware that logs memory usage every 10th request.
+ 
+Q44 Implement nested routers with prefix-based routing (/api/v1/users).
+ 
+Q45 Create a route that returns a stream (e.g., large file download using fs.createReadStream()).
+ 
+Q46 Create a route that returns CSV format data from an array of objects.
+ 
+Q47 Add an API versioning system using custom headers or URL prefix (/v1, /v2).
+ 
+Q48 Implement response caching middleware for frequently requested endpoints.
+ 
+Q49 Implement a middleware stack that handles user-agent-based content filtering (e.g., block mobile browsers).
+ 
+Q50 Create a route that fetches external data from a public API using node-fetch or axios and returns it.
+
